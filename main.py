@@ -41,6 +41,6 @@ def main(page: ft.Page):
         ft.Text("You have pushed the button this many times:"),
         counter_text
     )
-
+  
 
 ft.app(target=main, view=ft.AppView.WEB_BROWSER)
